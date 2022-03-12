@@ -21,6 +21,8 @@ public class PlayerController : MonoBehaviour
 
     public float JumpForce;
 
+    public float GravityMod;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -62,12 +64,12 @@ public class PlayerController : MonoBehaviour
             Movement.y = 0f;
         }
 
-        if(Input.GetButtonDown("Jump"))
+        if(Input.GetButtonDown("Jump") && charCon.isGrounded)
         {
             Movement.y = JumpForce;
         }
 
-        Movement.y += Physics.gravity.y * Time.deltaTime;
+        Movement.y += Physics.gravity.y * Time.deltaTime * GravityMod;
 
         charCon.Move(Movement * Time.deltaTime);
 

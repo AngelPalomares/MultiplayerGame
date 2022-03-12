@@ -1033,6 +1033,7 @@ MonoBehaviour:
   runspeed: 10
   charCon: {fileID: 1455798941}
   JumpForce: 12
+  GravityMod: 3
 --- !u!143 &1455798941
 CharacterController:
   m_ObjectHideFlags: 0

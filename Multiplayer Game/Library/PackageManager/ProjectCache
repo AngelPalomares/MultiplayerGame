@@ -1,6 +1,6 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/Owner/Desktop/UnityGames/Multiplayer Game/Packages/manifest.json
+    m_FilePath: C:/Users/Owner/Documents/GitHub/MultiplayerGame/Multiplayer Game/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
@@ -8,7 +8,7 @@ m_ProjectFiles:
       ticks: 637824527879175027
     m_Hash: 2003956774
   m_LockFileStatus:
-    m_FilePath: C:/Users/Owner/Desktop/UnityGames/Multiplayer Game/Packages/packages-lock.json
+    m_FilePath: C:/Users/Owner/Documents/GitHub/MultiplayerGame/Multiplayer Game/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
@@ -25,7 +25,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.5.7
       source: 1
-      resolvedPath: C:\Users\Owner\Desktop\UnityGames\Multiplayer Game\Library\PackageCache\com.unity.collab-proxy@1.5.7
+      resolvedPath: C:\Users\Owner\Documents\GitHub\MultiplayerGame\Multiplayer Game\Library\PackageCache\com.unity.collab-proxy@1.5.7
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Version Control
@@ -157,7 +157,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\Users\Owner\Desktop\UnityGames\Multiplayer Game\Library\PackageCache\com.unity.ide.rider@2.0.7
+      resolvedPath: C:\Users\Owner\Documents\GitHub\MultiplayerGame\Multiplayer Game\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -270,7 +270,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.8
       source: 1
-      resolvedPath: C:\Users\Owner\Desktop\UnityGames\Multiplayer Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.8
+      resolvedPath: C:\Users\Owner\Documents\GitHub\MultiplayerGame\Multiplayer Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.8
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -361,7 +361,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-      resolvedPath: C:\Users\Owner\Desktop\UnityGames\Multiplayer Game\Library\PackageCache\com.unity.ide.vscode@1.2.3
+      resolvedPath: C:\Users\Owner\Documents\GitHub\MultiplayerGame\Multiplayer Game\Library\PackageCache\com.unity.ide.vscode@1.2.3
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -434,7 +434,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.24
       source: 1
-      resolvedPath: C:\Users\Owner\Desktop\UnityGames\Multiplayer Game\Library\PackageCache\com.unity.test-framework@1.1.24
+      resolvedPath: C:\Users\Owner\Documents\GitHub\MultiplayerGame\Multiplayer Game\Library\PackageCache\com.unity.test-framework@1.1.24
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -536,7 +536,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.6
       source: 1
-      resolvedPath: C:\Users\Owner\Desktop\UnityGames\Multiplayer Game\Library\PackageCache\com.unity.textmeshpro@3.0.6
+      resolvedPath: C:\Users\Owner\Documents\GitHub\MultiplayerGame\Multiplayer Game\Library\PackageCache\com.unity.textmeshpro@3.0.6
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -633,6 +633,7 @@ m_PackageAssets:
         - 2.1.6
         - 2.2.0-preview.1
         - 2.2.0-preview.2
+        - 2.2.0-preview.3
         - 3.0.0-preview.1
         - 3.0.0-preview.3
         - 3.0.0-preview.4
@@ -701,7 +702,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.8
       source: 1
-      resolvedPath: C:\Users\Owner\Desktop\UnityGames\Multiplayer Game\Library\PackageCache\com.unity.timeline@1.4.8
+      resolvedPath: C:\Users\Owner\Documents\GitHub\MultiplayerGame\Multiplayer Game\Library\PackageCache\com.unity.timeline@1.4.8
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -788,6 +789,7 @@ m_PackageAssets:
         - 1.7.0-pre.1
         - 1.7.0-pre.2
         - 1.7.0
+        - 1.7.1
         compatible:
         - 1.4.8
         - 1.5.0-pre.2
@@ -815,6 +817,7 @@ m_PackageAssets:
         - 1.7.0-pre.1
         - 1.7.0-pre.2
         - 1.7.0
+        - 1.7.1
         verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director
@@ -2670,7 +2673,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: C:\Users\Owner\Desktop\UnityGames\Multiplayer Game\Library\PackageCache\com.unity.ext.nunit@1.0.6
+      resolvedPath: C:\Users\Owner\Documents\GitHub\MultiplayerGame\Multiplayer Game\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -2733,7 +2736,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 2.0.0
       source: 1
-      resolvedPath: C:\Users\Owner\Desktop\UnityGames\Multiplayer Game\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
+      resolvedPath: C:\Users\Owner\Documents\GitHub\MultiplayerGame\Multiplayer Game\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
       assetPath: Packages/com.unity.nuget.newtonsoft-json
       name: com.unity.nuget.newtonsoft-json
       displayName: Newtonsoft Json
@@ -2806,5 +2809,5 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: C:/Users/Owner/Desktop/UnityGames/Multiplayer Game/Packages
+m_ProjectPath: C:/Users/Owner/Documents/GitHub/MultiplayerGame/Multiplayer Game/Packages
 m_EditorVersion: 2020.3.10f1 (297d780c91bc)
