@@ -23,6 +23,10 @@ public class PlayerController : MonoBehaviour
 
     public float GravityMod;
 
+    public Transform groundCheckPoint;
+    private bool isGrounded;
+    public LayerMask groundLayers;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -64,7 +68,9 @@ public class PlayerController : MonoBehaviour
             Movement.y = 0f;
         }
 
-        if(Input.GetButtonDown("Jump") && charCon.isGrounded)
+        isGrounded = Physics.Raycast(groundCheckPoint.position, Vector3.down,.25f,groundLayers);
+
+        if(Input.GetButtonDown("Jump") && isGrounded)
         {
             Movement.y = JumpForce;
         }
@@ -73,6 +79,34 @@ public class PlayerController : MonoBehaviour
 
         charCon.Move(Movement * Time.deltaTime);
 
+        if(Input.GetMouseButtonDown(0))
+        {
+            Shoot();
+        }
+
+
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            Cursor.lockState = CursorLockMode.None;
+        }
+        else if(Cursor.lockState == CursorLockMode.None)
+        {
+            if(Input.GetMouseButtonDown(0))
+            {
+                Cursor.lockState = CursorLockMode.Locked;
+            }
+        }
+    }
+
+    private void Shoot()
+    {
+        Ray ray = TheCam.ViewportPointToRay(new Vector3(.5f, .5f, 0f));
+        ray.origin = TheCam.transform.position;
+
+        if(Physics.Raycast(ray,out RaycastHit hit))
+        {
+            Debug.Log("we hit" + hit.collider.gameObject.name);
+        }
 
     }
 
